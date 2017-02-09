@@ -18,8 +18,15 @@ Mathematica started using supercomputer-style cluster computing support from [Po
 ### User-level Parallel Programming
 [GridMathematica](https://www.wolfram.com/gridmathematica/) was introduced in 2002 to allow user level parallel programming on heterogeneous clusters and multiprocessor systems. Until 2010 parallel computing technology was included in all Mathematica licenses including support for grid technology such as Windows HPC Server 2008, Microsoft Compute Cluster Server, Sun Grid, [CUDA](https://en.wikipedia.org/wiki/CUDA) and [OpenCL](https://en.wikipedia.org/wiki/OpenCL) GPU hardware. In version 8 generating C code was added.
 
-
+## Performance
+Since Mathematica uses parallelism in a variety of algorithms and applications, we cannot tell for sure what is the ratio of sustained to peak performance. I also could not find the specifications of algorithms, but the technologies used are described above.
 
 ### Resources
-blah blah
-
+[https://www.wolfram.com/mathematica/](https://www.wolfram.com/mathematica/)
+[https://itunes.apple.com/us/app/wolfram-cloud/id978701305](https://itunes.apple.com/us/app/wolfram-cloud/id978701305)
+[http://daugerresearch.com/pr/poochmpimath.shtml](http://daugerresearch.com/pr/poochmpimath.shtml)
+[http://daugerresearch.com/pooch/mathematica.shtml](http://daugerresearch.com/pooch/mathematica.shtml)
+[http://daugerresearch.com/index.shtml](http://daugerresearch.com/index.shtml)
+[https://en.wikipedia.org/wiki/Wolfram_Mathematica](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
+[http://blog.wolframalpha.com/2010/12/06/mathematica-becomes-a-wolframalpha-interface/](http://blog.wolframalpha.com/2010/12/06/mathematica-becomes-a-wolframalpha-interface/)
+[https://www.wolfram.com/gridmathematica/](https://www.wolfram.com/gridmathematica/)
