@@ -1,38 +1,25 @@
+# CSE590 First Assignment
 
-## Welcome to GitHub Pages
+## Wolfram Mathematica
 
-You can use the [editor on GitHub](https://github.com/delafrouzmir/CSE590/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+[Wolfram Mathematica](https://www.wolfram.com/mathematica/), or [Mathematica](https://www.wolfram.com/mathematica/) is a mathematical computation program used in many scientific, engineering, mathematical, and computing fields. It was created by Stephen Wolfram and is developed by [Wolfram Research](http://www.wolfram.com/company/) of Champaign, Illinois. The [Wolfram Language](https://www.wolfram.com/language/) is the programming language used in Mathematica.
+Mathematica covers more than 5000 functions covering all mathematical functions as well as computing areas such as neural network, machine learning, visualization, data science, etc. It uses powerful and fast algorithms and hardware as well as parallel programming to achieve higher precision and more speed.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Platforms
+Mathematica can be used on any platform. With [Wolfram Cloud app](https://itunes.apple.com/us/app/wolfram-cloud/id978701305) anyone can use Mathematica with just a browser. It can be installed on Desktop as well as mobile apps. [WolframAlpha](https://www.wolframalpha.com/) which works on Mathematica technology is also an interface available for anyone with access to an internet browser. There are also widgets for it available on android and iOS phones.
 
-### Markdown
+## Parallelism
+Mathematica uses parallelism both in its own implementations of functions and providing an environment for user-level parallel programming.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Parallelism and Multi-threading
+Mathematica version 5.2 (2005) added automatic multi-threading when computations are performed on multi-core computers. This release included CPU specific optimized libraries.
+Mathematica started using supercomputer-style cluster computing support from [Pooch](http://daugerresearch.com/pooch/whatis.shtml) created by [Dauger Research](http://daugerresearch.com/index.shtml) in 2006. The Supercomputing Engine for Mathematica (SEM, a.k.a. the PoochMPI Toolkit) enables Wolfram Research's Mathematica to be combined with supercomputer-compatible Pooch clustering technology.  Following Message-Passing Interface (MPI), the Supercomputing Engine creates a standard way for every Mathematica kernel in the cluster to communicate with each other directly, rather than a master-slave model. After locating, launching, and coordinating Mathematica kernels on a cluster, the Supercomputing Engine creates and supports an "all-to-all" communication topology.
 
-```markdown
-Syntax highlighted code block
+### User-level Parallel Programming
+[GridMathematica](https://www.wolfram.com/gridmathematica/) was introduced in 2002 to allow user level parallel programming on heterogeneous clusters and multiprocessor systems. Until 2010 parallel computing technology was included in all Mathematica licenses including support for grid technology such as Windows HPC Server 2008, Microsoft Compute Cluster Server, Sun Grid, [CUDA](https://en.wikipedia.org/wiki/CUDA) and [OpenCL](https://en.wikipedia.org/wiki/OpenCL) GPU hardware. In version 8 generating C code was added.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Resources
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/delafrouzmir/CSE590/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
