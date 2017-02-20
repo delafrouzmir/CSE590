@@ -1,9 +1,10 @@
 # CSE590 Second Assignment
 
 ## Parallel Programming Model in OpenSHMEM
+OpenSHMEM provides parallelism by allowing multiple Processing Elements (PEs) to start in parallel and then communicate and synchronize the remotely accessible data objects across PEs. Each PE has remotely accessible, as well as private data objects. Figure 1 depicts the memory model in OpenSHMEM.
 
 
-## 	Suggested Multi-threading Models for OpenSHMEM
+## 	Suggested Multi-threading Model for OpenSHMEM
 ### Communication Context
 Communication contexts define the set of rules and the way of communication between different PEs, or Remote Memory Access routines, Atomic Memory Operations, and memory ordering routines. Using communication contexts will allow the user to:
 - manage the overlap of computations with communications in single-threaded PEs, for example pipelining computations and communications.
