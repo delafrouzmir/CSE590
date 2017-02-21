@@ -19,7 +19,7 @@ All data transfers in OpenSHMEM are one-sided (including RMA and AMO), meaning t
 
 
 ## 	Suggested Multi-threading Model for OpenSHMEM
-Multi-threading inside a PE allows OpenSHMEM to support nested parallelism. The communications between threads can be independent from the PE beneath or done alongside with the PE's.
+Multi-threading inside a PE allows OpenSHMEM to support nested parallelism. The communications between threads can be independent from the PE beneath or done alongside with the PE's, which is determined by the communication context.
 
 ### Communication Context
 Communication contexts define the set of rules and the way of communication between different PEs, or Remote Memory Access routines, Atomic Memory Operations, and memory ordering routines. Using communication contexts will allow the user to:
