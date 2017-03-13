@@ -31,6 +31,7 @@ Communication contexts define the set of rules and the way of communication betw
 - SHMEM_CTX_SERIALIZED: available in the multi-threaded model, in this mode the context is not used concurrently by all the threads of a PE. It is up to the user to make sure that operations involved with this mode are serialized.
 -	SHMEM_CTX_PRIVATE: available in the multi-threaded and serialized mode, in this mode the context is only usable by the thread that created it. 
 
+[About OpenMP multi-threading in OpenSHMEM:](openmp.md).
 
 #### Resources
 - [OpenShmem Application Programming Interface, Version 1.3](http://openshmem.org/site/sites/default/site_files/OpenSHMEM-1.3.pdf)
