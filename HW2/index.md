@@ -33,5 +33,13 @@ Communication contexts define the set of rules and the way of communication betw
 
 [About OpenMP multi-threading in OpenSHMEM](openmp.md).
 
+### Further readings:
+
+[http://www.netlib.org/utk/people/JackDongarra/WEB-PAGES/SPRING-2006/Lect07-extra.pdf](http://www.netlib.org/utk/people/JackDongarra/WEB-PAGES/SPRING-2006/Lect07-extra.pdf)
+[http://www.fftw.org/fftw3_doc/Combining-MPI-and-Threads.html](http://www.fftw.org/fftw3_doc/Combining-MPI-and-Threads.html)
+[Barriers in OpenMP](https://computing.llnl.gov/tutorials/openMP/#BARRIER)
+[Barriers in OpenMP 2](http://jakascorner.com/blog/2016/07/omp-barrier.html)
+
+
 #### Resources
 - [OpenShmem Application Programming Interface, Version 1.3](http://openshmem.org/site/sites/default/site_files/OpenSHMEM-1.3.pdf)
